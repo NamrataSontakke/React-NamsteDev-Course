@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Inception</title>
+</head>
+<body>
+     <!-- hellow world using html -->
+    <h1>Hellow World</h1>
+
+    <!-- hellow world in javascript using javascript -->
+    <div id = "root"></div>
+    <div id = "root1"></div>
+    <script>
+        const heading = document.createElement("h1")
+        heading.innerHTML="Hellow world using javascropt"
+        const root = document.getElementById("root")
+        root.appendChild(heading)
+    </script>
+    
+    <!-- Hellow world in react -->
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<script src="./app.js">
+    
+</script>
+</body>
+</html>
